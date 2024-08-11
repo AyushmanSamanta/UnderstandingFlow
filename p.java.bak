@@ -1,0 +1,13 @@
+abstract class P
+{
+	abstract public void m1();
+	final public void m2(){}
+}
+
+class C extends P
+{
+	public void m1(){
+	
+	}
+	
+}
